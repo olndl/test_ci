@@ -14,4 +14,4 @@ jobs:
    - name: Select Xcode
      run: sudo Xcode-select -switch /Applications/Xcode_14.0.1.app
    - name: Build
-     run: xcodebuild clean build -workspace test_ci.xcodeproj/project.xcworkspace -scheme test_ci -destination 'platform=iOS Simulator,OS=16.0,name=iPhone 12 Pro' CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
+     run: xcodebuild clean build -workspace test_ci.xcodeproj/project.xcworkspace -scheme test_ci -destination 'platform=iOS Simulator,OS=16.0,name=Any iOS Simulator Device' CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
